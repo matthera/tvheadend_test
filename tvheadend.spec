@@ -1,9 +1,8 @@
 %global commit [commit]
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-%global version_tag [version]
-%global major_no %( expr %{version_tag} : "v\\(\[0-9\]*\\)" )
-%global minor_no %( expr %{version_tag} : "v\[0-9\]*\.\\(\[0-9\]*\\)" )
-%global build_no %( expr %{version_tag} : "v\[0-9\]*\.\[0-9\]*-\\(\[0-9\]*\\)" )
+%global shortcommit [short_commit]
+%global major_no [major_no] 
+%global minor_no [minor_no]
+%global build_no [build_no]
 
 Name:           tvheadend
 Summary:        TV streaming server and Digital Video Recorder
