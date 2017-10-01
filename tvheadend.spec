@@ -27,7 +27,10 @@ BuildRequires:  pkgconfig(libavformat)
 BuildRequires:  pkgconfig(libavresample)
 BuildRequires:  pkgconfig(libavutil)
 BuildRequires:  pkgconfig(zlib)
-BuildRequires:  wget python git cmake
+BuildRequires:  pkgconfig(opus)
+BuildRequires:  pkgconfig(vpx)
+BuildRequires:  pkgconfig(libva)
+BuildRequires:  x264-devel x265-devel wget python git cmake
 %ifarch i686 x86_64 i386
 BuildRequires:  libva-intel-driver
 %endif
