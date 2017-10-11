@@ -1,4 +1,4 @@
-FROM matthera/fedora-docker-[arch]:[dist]
+FROM sandy:5000/matthera/fedora-docker-[arch]:[dist]
 RUN dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-[dist].noarch.rpm
 COPY [tvheadend-rpm] .
 RUN dnf -y install ./[tvheadend-rpm]
