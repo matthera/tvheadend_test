@@ -30,7 +30,7 @@ BuildRequires:  pkgconfig(zlib)
 BuildRequires:  pkgconfig(opus)
 BuildRequires:  pkgconfig(vpx)
 BuildRequires:  pkgconfig(libva)
-BuildRequires:  x264-devel x265-devel wget python git cmake
+BuildRequires:  x264-devel x265-devel libdvbcsa-devel wget python git cmake
 %ifarch i686 x86_64 i386
 BuildRequires:  libva-intel-driver
 %endif
