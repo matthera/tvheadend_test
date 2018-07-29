@@ -50,7 +50,7 @@ SAT>IP and various other clients using these protocols.
 
 %build
 echo %{version}-%{release} > %{_builddir}/%{buildsubdir}/rpm/version
-%configure --disable-lockowner --enable-bundle --disable-ffmpeg_static --disable-libx264_static --disable-libx265_static --disable-libvpx_static --disable-libtheora_static --disable-libvorbis_static --disable-libfdkaac_static --disable-libsystemd_daemon
+%configure --disable-dvbscan --disable-lockowner --enable-bundle --disable-ffmpeg_static --disable-libx264_static --disable-libx265_static --disable-libvpx_static --disable-libtheora_static --disable-libvorbis_static --disable-libfdkaac_static --disable-libsystemd_daemon
 %{__make} %{?_smp_mflags}
 
 %install
