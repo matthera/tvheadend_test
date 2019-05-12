@@ -15,6 +15,7 @@ URL:            http://tvheadend.org
 
 Source0:        https://github.com/tvheadend/%{name}/archive/%{commit}.tar.gz#/%{name}-%{shortcommit}.tar.gz
 
+BuildRequires:  gcc
 BuildRequires:  systemd-units
 BuildRequires:  gettext-devel
 BuildRequires:  pkgconfig(dbus-1)
