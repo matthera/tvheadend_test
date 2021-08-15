@@ -3,6 +3,7 @@
 %global major_no [major_no] 
 %global minor_no [minor_no]
 %global build_no [build_no]
+%global _lto_cflags %nil
 
 Name:           tvheadend
 Summary:        TV streaming server and Digital Video Recorder
